@@ -1,0 +1,72 @@
+html {
+  height: 100%;
+  font-size: 30px;
+}
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: calc(30px + 6 * ((100vw - 320px) / 680));
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: 30px;
+  }
+}
+
+body {
+  font-family: "Share Tech Mono", monospace;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.flex-container {
+  height: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  width: auto;
+}
+
+.flex-item {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#resume {
+  font-family: "Share Tech Mono", monospace;
+  /* font-size: 1em; */
+  border: 5px solid black;
+  padding: 2px 20px;
+  text-decoration: none;
+  color: black;
+
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#resume:hover {
+  background-color: orange;
+  color: white;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
