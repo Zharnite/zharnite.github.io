@@ -10,10 +10,15 @@ body {
   padding: 0;
 }
 
+h1 {
+  font-size: 5rem;
+}
+
 #content-row {
   margin-top: 25%;
 }
 
 #name {
   font-weight: bold;
+  font-size: 5.5rem;
 }
