@@ -7,20 +7,36 @@
   --color-3: #ffffff;
   --color-4: #d362a4;
   --color-5: #8a0253;
+  --light-color: #ccc;
 }
 
 * {
   box-sizing: border-box;
 }
 
+html,
 body {
-  font-family: 'Share Tech Mono', monospace;
   margin: 0;
   padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: 'Share Tech Mono', monospace;
 }
 
 h1 {
   font-size: 5rem;
+}
+
+#main-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+#main-content {
+  flex: 1;
 }
 
 #content-row {
@@ -49,4 +65,15 @@ h1 {
     var(--color-5) 80%,
     var(--color-5)
   );
+}
+
+#main-footer {
+  margin-top: 0rem;
+}
+#main-footer p {
+  color: var(--light-color);
+}
+#main-footer a {
+  text-decoration: none;
+  color: inherit;
 }
