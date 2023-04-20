@@ -2,11 +2,12 @@
 
 :root {
   /* Colors */
-  --color-1: #d62e00;
-  --color-2: #ff9a56;
-  --color-3: #ffffff;
-  --color-4: #d362a4;
-  --color-5: #8a0253;
+  --color-1: #e40303;
+  --color-2: #ff8c00;
+  --color-3: #ffed00;
+  --color-4: #008026;
+  --color-5: #24408e;
+  --color-6: #732982;
   --light-color: #ccc;
 }
 
@@ -55,15 +56,17 @@ h1 {
   border-image-source: linear-gradient(
     to right,
     var(--color-1),
-    var(--color-1) 20%,
-    var(--color-2) 20%,
-    var(--color-2) 40%,
-    var(--color-3) 40%,
-    var(--color-3) 60%,
-    var(--color-4) 60%,
-    var(--color-4) 80%,
-    var(--color-5) 80%,
-    var(--color-5)
+    var(--color-1) 16.66%,
+    var(--color-2) 16.66%,
+    var(--color-2) 33.33%,
+    var(--color-3) 33.33%,
+    var(--color-3) 50%,
+    var(--color-4) 50%,
+    var(--color-4) 66.66%,
+    var(--color-5) 66.66%,
+    var(--color-5) 83.33%,
+    var(--color-6) 83.33%,
+    var(--color-6)
   );
 }
 
